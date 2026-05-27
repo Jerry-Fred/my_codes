@@ -11,7 +11,7 @@ int main(){
 	struct Node *no=(struct Node *) malloc(sizeof(struct Node));
 	int valor;
 	
-	printf("Digite um valor: ");
+	printf("Digite algum valor: ");
 	scanf("%d",&valor);
 	no->data=valor;
 	no->next=head;
