@@ -1,19 +1,12 @@
-# Basic Linked List Insertion (C)
+Array Analytics Tool
+Descrição
+Este programa em C realiza uma análise básica de um conjunto de 10 números inteiros inseridos pelo utilizador. O software processa o array para extrair métricas estatísticas e de classificação, além de manipular a ordem de exibição dos elementos.
 
-This project demonstrates the basic implementation of a linked list in C, focusing on node insertion and simple output handling.
+Funcionalidades
+Cálculos Automáticos: Soma total dos elementos.
 
-## Description
-The program creates a basic linked list structure and inserts a single element dynamically. It then displays the stored value as a proof of correct insertion and memory allocation.
+Classificação: Identificação do maior (Greater) e menor (Less) número.
 
-## Concepts Covered
-- Dynamic memory allocation
-- Struct usage in C
-- Pointers
-- Basic linked list structure
-- Node insertion logic
+Paridade: Contagem de números pares (Even) e ímpares (Odd).
 
-## Purpose
-This exercise was developed to strengthen understanding of pointers, memory management, and fundamental data structures in C programming.
-
-## Output
-The program prints the value of the inserted node to verify successful insertion.
+Manipulação de Arrays: Impressão do array em ordem inversa.
