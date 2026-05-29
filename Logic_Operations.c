@@ -4,8 +4,8 @@
 int main (){
 	int arr[TAM];
 	int greater=0;
-	int less=0;
-	int sum = 0;
+	int less;
+	int sum;
 	int even = 0, odd = 0;
 		
 	printf("Insert the elements to the array: ");
@@ -18,7 +18,8 @@ int main (){
 		else if(arr[i]%2!=0) 
 			odd++;
 	}	
-	// Logic of the Major and the Minor Number
+	// Logic of the Graeter and less Number
+	greater = less = arr[0];
 	for(int j = 0; j < TAM; j++) {
 		if(arr[j] > greater)
 			greater = arr[j];
