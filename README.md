@@ -1,12 +1,23 @@
-Array Analytics Tool
-Descrição
-Este programa em C realiza uma análise básica de um conjunto de 10 números inteiros inseridos pelo utilizador. O software processa o array para extrair métricas estatísticas e de classificação, além de manipular a ordem de exibição dos elementos.
+# Array Analytics Tool
 
-Funcionalidades
-Cálculos Automáticos: Soma total dos elementos.
+# Overview
 
-Classificação: Identificação do maior (Greater) e menor (Less) número.
+The **Array Analytics Tool** is a C program that performs a basic analysis of an array containing 10 integers provided by the user. It computes key statistical values, classifies the data, and demonstrates fundamental array manipulation techniques.
 
-Paridade: Contagem de números pares (Even) e ímpares (Odd).
+# Features
 
-Manipulação de Arrays: Impressão do array em ordem inversa.
+* **Total Sum:** Calculates the sum of all elements in the array.
+* **Maximum and Minimum Values:** Determines the largest (**Greater**) and smallest (**Less**) numbers.
+* **Parity Analysis:** Counts how many numbers are **Even** and **Odd**.
+* **Reverse Display:** Prints the array in reverse order.
+
+# Learning Objectives
+
+This project demonstrates the use of:
+
+* Arrays
+* Loops (`for`)
+* Conditional statements (`if`)
+* Variables and counters
+* Basic input and output in C
+* Elementary data analysis techniques
